@@ -1,0 +1,37 @@
+5 tabelas:
+
+* Foto
+id: int
+src: str
+
+* Pessoa
+id: int
+nome: str
+sobrenome: str
+pontos: int
+
+* Premios
+id: int
+nome: str
+custo: int
+
+
+* Usuario
+id: int
+email: str
+senha: str 
+pessoa: (fk)
+
+* Reciclagem
+id: int
+validado: boolean
+pontos: int
+pessoa: (fk)
+foto: (fk)
+
+
+
+- regras de negócios:
+cada foto só pode pertencer a uma reciclagem simultânea.
+cada pessoa só pode pertencer a um usuário simultâneo.
+
