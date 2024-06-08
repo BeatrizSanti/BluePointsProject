@@ -35,11 +35,11 @@ Aplicação em desenvolvimento desde 27/05/2024*
 <a id="_Integrantes"></a>
 
 # 1 - Integrantes
-    RM: 551401 Turma: 2TDSPF Nome: Ana Luiza Fontes Franco
-    RM: 551856 Turma: 2TDSPF Nome: Beatriz Fon Ehnert de Santi
-    RM: 552295 Turma: 2TDSPF Nome: Matheus Felipe Camarinha Duarte
-    RM: 98672  Turma: 2TDSPF Nome: Mirelly Ribeiro Azevedo
-    RM: 99708  Turma: 2TDSPW Nome: Gabriel Francisco Lobo
+    Ana Luiza Fontes Franco
+    Beatriz Fon Ehnert de Santi
+    Matheus Felipe Camarinha Duarte
+    Mirelly Ribeiro Azevedo
+    Gabriel Francisco Lobo
 ** Verificar o [txt da equipe](documentacao%2Fequipe.txt) para consultar pontos extras.
 
 <a id="_NossaProposta"></a>
@@ -58,10 +58,15 @@ Java é responsável por gerênciar o banco de dados. A princípio, nosso aplica
 <a id="_Instrucoes"></a>
 
 # 3 - Instrucoes de como rodar a aplicação
-Enrtar em:
+
+### 1. Clone o Repositório
+`git clone https://github.com/BeatrizSanti/BluePointsProject.git`
+
+### 2. Entrar em:
 
 src > main > java > br.com.fiap.bluePoint
-e executar o arquivo bluePointApplication.Java
+
+### 3. Executar o arquivo bluePointApplication.Java
 O projeto estará fluindo a partir dai!
 
 [video do funcionamento do projeto java](https://www.youtube.com/watch?v=nW9KG-lyNZM)
@@ -69,10 +74,7 @@ O projeto estará fluindo a partir dai!
 [video do funcionamento do projeto java 2](https://www.youtube.com/watch?v=FpqfzviS82A)
 
 Agora basta entrar na aplicação de mobile e fazer com que rode de forma web
-assim que rodar de forma web, a aplicação estará pronta para os demias testes
-descritos no repositório de [Mobile]()
-
-
+assim , a aplicação estará pronta para os demais testes descritos.
 
 
 <a id="_DockerCompose"></a>
@@ -81,35 +83,47 @@ descritos no repositório de [Mobile]()
 
 [Vídeo do funcionamento do docker compose](https://www.youtube.com/watch?v=wRxSx0cyd58)
 
-## Pré-requisitos
+Para rodar o projeto Java em docker compose:
 
-Antes de começar, você precisará ter o seguinte software instalado no seu computador:
+### 1. Entre no diretório do projeto clonado
+`cd C:\BluePointsProject\BluePoints_Java`
 
-- [Git](https://git-scm.com/)
-- [Docker](https://www.docker.com/)
-- [Docker Compose](https://docs.docker.com/compose/)
-
-Para rodar o projeto em docker compose:
-### 1. Clone o Repositório
-`git clone https://github.com/BeatrizSanti/BluePoints.git`
-
-### 2. Entre no diretório do projeto clonado
-`cd C:\BluePoints`
-
-### 3. Iniciae os Contêineres em segundo plano
+### 2. Iniciae os Contêineres em segundo plano
 `docker-compose up --build -d`
 
-### 4. Verifique os Contêineres em Execução
+### 3. Verifique os Contêineres em Execução
 `docker-compose ps`
 
-### 5. Pare os Contêineres
+### 4. Caso queira parar os Contêineres
 `docker-compose down`
 
-### 6. Limpe seu sistema Docker
+### 6. Caso queira limpar seu sistema Docker
 `docker system prune -a -f --volume`
 
+# 4 - Mobile
+
+## Iniciando um Projeto Mobile Expo pelo Terminal
+
+Este guia te ajudará a iniciar um novo projeto Expo pelo terminal, passo a passo.
+
+### Pré-requisitos
+
+* **Node.js e npm (ou yarn) instalados:** 
+  * **Expo CLI instalado:**
+    * Abra o terminal e digite: `expo --version`
+    * Se você tiver o Expo CLI instalado, ele mostrará a versão. Caso contrário, instale-o:
+        * `npm install -g expo-cli` ou `yarn global add expo-cli`
 
 
+1. **Navegue até o diretório do projeto:**
+    * `cd C:\BluePointsProject\BluePoints_Mobile`
+  
+ 
+2. **Instale o npx:**
+    * `npm install`   
+
+3. **Inicie o projeto:**
+    * `npx expo start`
 
 
 
