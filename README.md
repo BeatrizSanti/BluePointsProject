@@ -54,6 +54,9 @@ A identificação é feita com uma IA criada em python por nós para distinguir 
 Nosso App é criado em React Native e faz consumo de Java e da IA como API. Quanto a .NET faz um site para controle dos prêmios (nome e custo).
 Java é responsável por gerênciar o banco de dados. A princípio, nosso aplicativo não fará o controle de premios via banco de dados nem dos locais onde irão ocorrer os eventos.
 
+## Diagrama do projeto 
+
+![diagrama1.jpg](documentacao%2Fdiagrama%2Fdiagrama-bluepoints.png)
 
 <a id="_Instrucoes"></a>
 
