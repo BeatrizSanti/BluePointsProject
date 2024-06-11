@@ -10,8 +10,4 @@
 ## Modelo MER
 ![diagrama3.jpg](documentacao%2Fdiagrama%2Fmodelo-MER.png)
 
-## TOGAF
-![diagrama4.jpg](documentacao%2Fdiagrama%2FTOGAF.jpg)
-
-
 
