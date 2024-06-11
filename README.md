@@ -104,7 +104,11 @@ Para rodar o projeto Java em docker compose:
 
 ** Verificar a [API](documentacao/API.md)
 
-
+# 5 - IA
+1. **Baixe o arquivo [BluePoints_IA.py](BluePoints_IA/BluePoints_IA.py)**
+2. **Abra o [Google Colab](https://colab.google)**
+3.  **Carregue o Arquivo**
+4.  **Carregue uma imagem de resíduo com nome '1.png'**
 
 <a id="_Endpoint"></a>
 
